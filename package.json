@@ -1,8 +1,8 @@
 {
-    "name": "my-new-project",
-    "productName": "my-new-project",
+    "name": "cid",
+    "productName": "cid",
     "version": "1.0.0",
-    "description": "My Electron application description",
+    "description": "cid smart card",
     "main": "src/index.js",
     "scripts": {
         "start": "electron-forge start",
@@ -46,6 +46,7 @@
     "dependencies": {
         "electron-compile": "^6.4.1",
         "hexify": "^1.0.1",
+        "jquery": "^3.2.1",
         "legacy-encoding": "^3.0.0",
         "smartcard": "^1.0.20"
     },

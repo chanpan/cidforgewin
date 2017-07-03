@@ -3,14 +3,14 @@ import { app, BrowserWindow } from 'electron';
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow;
-//require('electron-reload')(__dirname);
+const smartcard = require('smartcard');
+const pcsc1 = require('pcsclite');
 
 const createWindow = () => {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 1000,
+    width: 800,
     height: 600,
-    resizable :false
   });
 
   // and load the index.html of the app.
